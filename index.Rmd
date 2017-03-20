@@ -1,5 +1,5 @@
 ---
-title: Fieldbook application user manual.
+title: Fieldbook application user manual
 author: 'Flavio Lozano Isla, Jimmy R. Gomez Carrion, Omar Benites Alfaro, Felipe de Mendiburo'
 description: Book for learn how to use fieldbook aplication for statistical analysis.
 date: '`r Sys.Date()`'
