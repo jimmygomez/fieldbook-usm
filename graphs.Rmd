@@ -1,0 +1,71 @@
+# Graphics
+
+En la herramienta **Graphics** te permite traer de **Stadistic** lo analizado para representarlo graficamente. Aqui las herramientas:
+  
+  _Ylabel_,  _Xlabel_, y _Legend_ te permitirá dar forma a los rotulos de tus ejes de ordenadas, abscisas y leyenda respectivamente; manteniendo los mismos criterios de escritura vistas en el capitulo **Outliers** para la construcción de los rotulos.
+
+Si se desea mantenerlos en blanco, arrastrará la informacion de las cabeceras con el que se contruyo en **tools** la libreta de campo.
+
+
+![**Representación grafica, manteniendo  los rotulos de la libreta de campo. **](img/g02.png)
+
+Al pie de cada cuadro en azul, verde y rojo, tenemos _brakes_. En azul para definir el punto de partida del eje de las ordenas, el cual solo se habilita con el grafico de lineas. 
+
+En _brake text_ permite modificar el los rotulos de los subfactores, dando dos espacios entre cada nombre del subfactor.
+
+Del ejemplo, se desea cambiar:
+  "inoculado"  y "noinoculado",por: enfermo  sano
+es decir: enfermo(._._)sano
+
+Y para los niveles de huesped (Legend): "Antillano", "Mexicano", "Nabal", y "Zutano", se desea cambiar por:
+  G1  G2  g3 g4
+es decir: 
+  G1(._._)G2(._._)g3(._._)g4
+*._ es la representacion grafica de un pulso sobre la barra espaciadora de l teclado. Si solo se da un solo espacio(._)        No saltara a cambiar el nombre del otro subnivel,  y por defecto imprimira "N.A".
+
+
+![**Representación grafica, modificando los rotulos. **](img/g01.png)
+
+Note como el orden en el que se ingresan los factores en **Stadistic** es importante. Para cambiar el orden de los factores debe de regresar a **Stadistic** y seleccionar primero a factor que se quiere representar en el eje de la abscisas (huesped) y luego el otro factor representado como grafico de barras (patogeno).  El primer factor siempre refleja el eje de las abscisas.
+
+![**El primer factor seleccionado, se representará en el eje de las abscisas**](img/gfactors.png)
+
+El siguiente grafico refleja  mejor el comportamiento de los individuos evaluados a la variable longitud de raiz. Esta grafica mejor el proposito del investigador, el cual es distinguir el comportamiento de los individuos. 
+
+
+![**cambio en el eje de la abscisas.**](img/g03.png)
+
+Las modificaciones a los rotulos se hace del mismo modo que en el capitulo **Outliers**. La caja de herraminetas que se muestra al lado izquierdo permite:
+  
+  **Size:** El tamano por defecto es **2**, se recomienda descargarlo en **1** para una mejor resolucion en la impresion.
+
+**Type:** Se presentan dos tipos de graficos de _lineas_ y de _barras_. Cuando seleccionas _line_ puedes hacer uso en  *Ylabel* las funciones  *Limit(i)* y *Limit(f)* para modificar el eje de la ordenadas.
+
+**Color:** Se muestra la graficas en blanco y negro, y a color.
+
+**Significance:** Muestra la significancia representada por letras. 
+
+**Error:**  Mostrar la barra de error.
+
+**Lenged:** Muestra la ubicación del rotulo de la leyenda, _none_, _left_, _rigth_, _top_ y _bottom_.
+
+**Heigth(mm)** y **Width(mm):** Es la altura y el ancho de la figura a imprimir.
+
+**TIFF(300ppi):** Es el formato (del grafico) requerido para la divulgacion cientifica.
+
+![**cambio en el eje de la abscisas.**](img/gg.png)
+
+Se recalca una vez mas, el buen juicio del investigador. Para este ejemplo, es importante tener la representación grafica de la todas la evaluaciones en el tiempo y como se comportan los individuos con el patogeno (_inoculado_ y _noinoculado_), 
+
+Entonce, deberemos volver a **Stadistic**, y el primer factor que se debe ingresar es: evaluaciones seguido de los individuos evaluados (_huesped_), como se muestra a continuacion:
+  
+  ![**Stadistci: Evaluacion - huesped **](img/e_h.png)
+
+Seleccionamos el **graphic** - **Type** - **line**  para una representación con grafico de lineas, vale señalar que la grafica se ha construido sobre el promedio de factor **patogeno**.
+
+![**Evaluación en el tiempo.**](img/g_eva.png)
+
+Si se desea hacer un disgregación más minusiosa, podemos usar la herramienta **Filter** de **FieldBook** y seleccionar en filtro el factor *patogeno* y como subfactor *inoculado* para su analisis y represenación grafica, como se muestra a continuación.
+
+![**Evaluación en el tiempo. Solamente de los inoculados**](img/inoculados_eva.png)
+

@@ -1,0 +1,28 @@
+
+# Statistic
+
+Esta es un plataforma de calculos estadistístico, reposa sobre el investigador su correcto uso.
+
+En **Response** seleccionamos la variable respuesta que deseamos analizar.
+
+En **Block** dependiendo del diseño estadistico seleccionar el bloque, o del criterio del investigador alguna columna que quiera aislar de manera particular.
+
+En **Factors** seleccionar el los tratamientos o factores.
+
+En **Significance** esta predefinido con un nivel de significancia del 5%, pero este también queda a criterio del investigador.
+
+En **Type** se presenta el tipo de prueba: _Tukey_, _Duncan_ y _Snk (Student Newman Keuls)_
+
+![**ANVA: Analisis de varianza** ](img/anva.png)
+
+
+Para nuestro ejemplo, segun la prueba de Tukey, existen diferencias estadisticamente significativas, entre evaluaciones, entre huespedes (individuos evaluados), y entre el factor patogeno (inoculado y noinoculado).
+Y, No existe diferencias estadisticamente significativas cuando interatuan los factores (huesped:patogeno). Es decir, cuando se tomo cada bloque (cada evaluacion) no existe una respuesta significativa de los  hospederos  con respecto a la presencia o ausenica del patogeno. 
+Cuando se evaluo la interacción, No se encontro evidencias estadisticamente significativas. Y esto, resulta beneficioso, pues de ser significativo se hubiera negado la validez de los factores analizados.
+
+En en el cuadro adjunto, se los principales parametros y sus niveles de significancia, donde puede copiar, o descargar en formato csv o xlsx para poder hacer las graficas en el programa de su preferencia.
+
+![**Cuadro de significancia**](img/table_anva.png)
+
+En la plataforma FieldBook tambien te permite relizar las graficas mas importantes, de lineas e histogramas para representar tu analisis de comparación de medias.
+

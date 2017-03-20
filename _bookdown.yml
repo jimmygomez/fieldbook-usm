@@ -1,0 +1,11 @@
+book_filename: "Fieldbook User Manual"
+output_dir: docs
+rmd_files: [
+  "index.Rmd", 
+  "interface.Rmd",
+  "fieldbook.Rmd",
+  "boxplot.Rmd",
+  "multivariate.rmd",
+  "stat.rmd",
+  "graphs.rmd"
+  ]

@@ -1,0 +1,63 @@
+
+# Multivariate
+
+En  **Multivariate** tenemos dos presentaciones de las variables respuestas evaluadas. **Correlation** y **analisis de componentes principales (pca)** ambos con sus respectivos graficos. estos nos permitira reconocer la correlacion de las variables y simplificar un problema complejo, a criterio del investigador.
+
+![**correlation      y     pca**](img/007_0multivariante.png)
+
+## correlation
+
+En el cuadro de la izquierda **Correlation**  muestra  el grado de **Significance**, por defecto se trabaja con un grado de significancia igual al 5%, en el desplegable se puede cambiar el nivel de significancia. 
+
+La **Correlation**  permite conocer el grado de relacion que tiene cada variable respuesta respecto a la otra, en un rango de **+1 a -1**, si el valor absoluto de la correlacion es cercano a **1** indica que presenta una _magnitud_ relación muy estrecha, y el signo es positivo o negativo indica que es una relación directa o inversa, respectivamente.
+
+
+En **Font** se puede escoger el tamaño de fuente, el cual por defecto es **1** es el tamaño de fuente más apropiado si se desea copiar la imagen para imprimir. Por último, **color**, en este se colocaran los colores HTML de su preferencia separados por un espacio para representar dicha correlacion, notar que el orden como se ingresan los codigos de colores HTML es importante. 
+
+
+### colors HTML
+
+Para un mejor empleo de los colores HTML en **Multivariate**, se debera colocar los **colores HTML** o llamar a los  colores primarios por su nombre, como: _yellow_  _red_  _green_  _blue_  _orange_ _black_ _gray_ _white_. 
+
+Una forma practica de obtener el codigo es usando un **eyes dropper**, una vez instalado en su navegador, ingresar al **color picker**. Copiar el codigo del color y pegar sobre **Multivariate - correlation - color**, como se muestran en los circulos.
+
+![**colors HTML**, eyes dropper. **En rojo:** cuenta gotas. **En verde:** copiar codigo de  color](img/colors_picker.png)
+
+
+Copiado el codigo de color HTML, pegar en **Multivariate - correlation - color**.
+
+Es asi como puede personalizar sus graficos de la **Correlation**.
+
+
+![**correlation y PCA** - Type var](img/007_07multivariante.png)
+
+
+## Analisis de componentes principales
+
+En el analisis de los componentes principales (PCA), se tiene el desplegable **Type** donde se presenta _biplot_, _var_ e _ind_; y junto a **Variable**, se puede escoger el plano que mejor grafique el proposito del investigador, con la combinacion de estos.
+
+**PCA- Type** permite encoger _var_  el que representa la correlacion de las variables respuestas en una grafica simple  de radio = **1**. El cual tienen el mismo marco conceptual que **Corretation** visto lineas arribas, pero en esta ocacion en una representación grafica.
+
+La variable respuestas poseen una _magnitud_ y _direccion_ respecto a los cuadrantes del plano cartesiano.
+
+    Para el ejemplo observamos que se mueven una dirección opuesta (relacion inversa) y magnitud cercano a cercana a "1" (una correlaciin alta) entre Damage y LengthRootKm. Al investigador le interesan particularmente estas dos variables, puesto se esta estudiando la damage que causa un patogeno a las raices, es prioritario centrar su atención sobre los sintomas primarios (el deterioro de la raices).  
+
+![**Relacion Damage y LengthRootKm** _inoculado_ y _noinoculado_ (control)](img/damage_length.png)
+
+
+
+En la herramienta  **Tools** se construyo la libreta de campo y el orden como se contruye la columna: repetecion, bloque, factores y variables, es importante a la hora de escoger en   **Multivariate - PCA - Variable**,la columna que vas a representar.
+
+    Para el ejemplo, cuando elegimos en varible 2, elegimos  la columna 2, que   representa a las evaluaciones por lo que en la leyenda iran las evaluaciones con su respectivo color, y en label, tiene la oportunidad de cambiar el rotulo de la columna, puede cambiar eva  por Evaluacion.
+
+![**PCA** _Los ejes en gris_ representan el % de variación de la _variancia_ para cada componente.](img/007_02multivariante.png)
+
+      Dando sobre el desplegable "Varaible"", hasta la  columna 3, el que representa  al  patogeno   por consecuencia aparece como rotulo en la leyenda, y se puede apreciar que en la grafica se separa la columna  patogeno (inoculado    y   noinoculado). Si deseamos cambiar el rotulo de la leyenda, escribir en "Label" el nombre de su preferencia.  
+
+Es criterio del investigador tomar la columna que mejor se ajuste a sus necesidades.
+
+![**Correlation y Analisis de componentes principales**](img/007_multivariante.png)
+
+
+El eje de las componentes principales representa el _porcentaje de variabilidad de la varianza_ y no tiene otro significado del que le da el investigador.
+
