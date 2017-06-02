@@ -7,8 +7,8 @@ bookdown::gitbook:
       scroll_highlight: yes
       before: |
         <li> <a href="./">Fieldbook User Manual</a> </li>
-     # after:  |
-     #   <li><a href="https://flavjack.shinyapps.io/fieldbook/">FieldBook app</a></li>
+      after:  |
+        <li><a href="http://ec2-34-209-148-38.us-west-2.compute.amazonaws.com:3838/sample-apps/fieldbook/">FieldBook app</a></li>
     fontsettings:
       theme: sepia
       family: sans
