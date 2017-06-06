@@ -1,14 +1,30 @@
 # FieldBook
 
-Cuando hayas digitalizado tus datos recogidos de campo, de acuerdo a la plantilla diseñada en _Tools_ cargaras en **FieldBook** como url ó como xlsx.
+En fieldbook  contruye libretas de campo, el cual mantiene el arreglo comun de una Variable por _columna_ y un dato por  _fila_.
 
-![**FieldBook**, **En amarillo**: Hoja en la que se encuentra tu base de datos que deseas subir. **En verde**: Actualizar  modificaciones  ](img/005_fieldbook.png)
+Fieldbook llama a la caja de dialogo *Experimental Design* par iniciar con la exportación de la libreta de campo. En **Layout** elegimos el modo por defecto _standard_ seguidamente en la caja _Design_ tenemos un desplegable donde se debe elegir uno de los siguientes diseños estadisticos:
+
+*Diseño completamente al Azar (DCA) / Completely randomized design (CRD)*
+*Diseño completamente al azar (DBCA) / Randomized complete bock design (RCBD)*
+*Diseño cuadrado latino (DCL) / Latin square design (LSD)*
+*DCA con dos factores /Two-way factorial arrangement in completely randomized design*
+*DBCA con dos factores / Two-way factorial arrangement in complete block design*
+
+![**Fieldbook: diseño de la libreta de campo** ](img/experimentaldesign.png)
 
 
-Una vez subido y actualizado el archivo. En ocaciones es muy util cargar una parte de la base de datos para un analisis parcial de bloques o factores, entonces en la herramienta **Filter** podrás filtrar la base de dato de acuerdo al criterio del investigador, tomando los factores que mejor los acerquen a sus propositos. Puede filtrar por evaluación  y algun tratamiento que sea de su particular interes.
+
+*Header* aquí se debe colocar el nombre del factor de variación, el cual se vizualizará en el alibreta de campo como la cabecera de la columna al que pertenece los niveles del factor (tratamientos).
+
+*Factor levels* corresponde a los niveles del factor, al que corresponde el factor de variación, y van separado por comas.
+
+*Variables* correponde a las variables respuestas del experimento, y tambien van separados por comas. Se recomienda como parte de las buenas practicas que esta no sea un frase o palabra larga pues asignaria por defecto una columna demasiado larga. Por ejemplo si se desea tener tener como variable respuesta: "El peso seco de la espiga de maíz amarillo duro en miligramos", una asiganación correcta sería: pe_AD
+
+donde:
+
+Adiconalmente se recomienda dejar anotada en una hoja adicional, la construcción de la leyendas para la contrucción de variables, como las unidades en las que será medida, la fecha, entre otras anotaciones que el profesional  considere importante.
 
 
-![**FieldBook - Filter** ](img/filter.png)
+*Replications* corresponde al número de repeticiones del experimento, y por defecto figura tres. Sin embargo, se recomienda tener un mínimo de tres repeticiones. A mayor repeticiones reducirmos el error tipo I.
 
-
-De no escoger ningun filtro, se cargara toda la base de datos completa.
+*Intime* corresponde a las evaluaciones que se hacen en el tiempo, por defecto figura uno, pero es normal que en un experimento se hagan muchas más evaluaciones sobre la unidad experimental.
