@@ -9,7 +9,7 @@ Fieldbook  contruye libretas de campo, el cual sigue  un correcta estructuració
 
 ##Datos estructurados
 
-Nos referimos al arreglo que alberga todas las condiciones del diseño experimental y el concepto, es el punto de partida para todo  análisis de la información que se pretenda realizar porsterirmente, no prestar la debida atención a la correcta estructura  de los datos no solo demandaria mayor inversión de tiempo y dinero, sino que aumentaria nuestro error.
+Nos referimos al arreglo que alberga todas las condiciones del diseño experimental, Y es el punto de partida para todo  análisis de la información que se pretenda realizar porsterirmente, no prestar la debida atención a la correcta estructura  de los datos no solo demandaria mayor inversión de tiempo y dinero, sino que aumentaria nuestro error.
 
 Para la cual los datos deben de ordenarse siguiendo las siguientes consideraciones:
 **1.- **cada variable es una columna,
