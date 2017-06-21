@@ -33,6 +33,4 @@ Otro forma de presentar la misma variable es la siguiente:
 
 ![**outliers. Response: LengthRootKm.  AxisX: huesped**   ](img/006_1outliers.png)
 
-Queda a criterio del investigador la mejor manera de presentar sus datos, siempre que sea la más legible de la formas.
-
-    Finalmente debemos precisar que para estas imagenes, hay tres puntos rojos (flecha azul) estos son los datos fuera de tipo (outliers), aumentando la desviación estandar.
+Finalmente debemos precisar que para estas imagenes, hay tres puntos rojos (flecha azul) estos son los datos fuera de tipo (outliers), el cual en consecuencia aumenta el coeficiente de variabilidad.

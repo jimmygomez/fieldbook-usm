@@ -1,3 +1,29 @@
-# Regresion
+# Regression
 
-En regresion se puede construir modelo de regresion lineal simple, junto a la gráfica, la ecuación y el coeficiente de correlación  r**{2}  de Pearson 
+En regresion se puede construir modelos de regresion lineal simple, seleccionando las variables respuesta en la caja azul y verde, para el eje de las ordenas y abscisas respectivamente.
+
+Seguidamente se vizualizará  la gráfica lineal, la ecuación y el coeficiente de correlación  r**2  de Pearson 
+
+
+![**Datos Estructurados: ** ](img/rlavel.png)
+
+
+
+![**Datos Estructurados: ** ](img/rlavel1.png)
+
+
+
+
+
+
+
+
+
+![**Datos Estructurados: ** ](img/rgrafico.png)
+
+
+![**Datos Estructurados: ** ](img/rgrafico1.png)
+
+
+
+![**Datos Estructurados: ** ](img/rtable.png)
