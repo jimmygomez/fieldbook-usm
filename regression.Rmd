@@ -1,0 +1,4 @@
+
+# Regresion
+
+Aqui anotar apuntes de regresion.

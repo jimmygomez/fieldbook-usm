@@ -24,10 +24,8 @@ Se contruyen modelos de regresión lineal, visualización de la ecuación y repr
 
 ## Stadistics
 
-Se desarrollan el análisis de varianza y prueba de comparación de medias mostrada en cuadros resúmen sensible a ser exportadas.
+Se desarrollan el análisis de varianza y prueba de comparación de medias mostrada en cuadro resúmen sensible a ser exportadas.
 
 ## Graphics
 
 La visualización de los resultados en gráfico de barras o líneas en b/n y colores. 
-
-
