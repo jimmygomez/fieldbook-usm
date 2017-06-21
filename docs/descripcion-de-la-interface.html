@@ -33,8 +33,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
   
   <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
-
-<link rel="next" href="descripcion-de-interface.html">
+<link rel="prev" href="index.html">
+<link rel="next" href="fieldbook-1.html">
 
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
@@ -68,12 +68,20 @@
 
 <li class="divider"></li>
 <li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> ¿Qué es fieldbook?</a></li>
-<li class="chapter" data-level="2" data-path="descripcion-de-interface.html"><a href="descripcion-de-interface.html"><i class="fa fa-check"></i><b>2</b> Descripción de Interface</a></li>
-<li class="chapter" data-level="3" data-path="fieldbook.html"><a href="fieldbook.html"><i class="fa fa-check"></i><b>3</b> FieldBook</a></li>
-<li class="chapter" data-level="4" data-path="outliers.html"><a href="outliers.html"><i class="fa fa-check"></i><b>4</b> outliers</a></li>
+<li class="chapter" data-level="2" data-path="descripcion-de-la-interface.html"><a href="descripcion-de-la-interface.html"><i class="fa fa-check"></i><b>2</b> Descripción de la Interface</a><ul>
+<li class="chapter" data-level="2.1" data-path="descripcion-de-la-interface.html"><a href="descripcion-de-la-interface.html#fieldbook"><i class="fa fa-check"></i><b>2.1</b> FieldBook</a></li>
+<li class="chapter" data-level="2.2" data-path="descripcion-de-la-interface.html"><a href="descripcion-de-la-interface.html#importdata"><i class="fa fa-check"></i><b>2.2</b> Importdata</a></li>
+<li class="chapter" data-level="2.3" data-path="descripcion-de-la-interface.html"><a href="descripcion-de-la-interface.html#outliers"><i class="fa fa-check"></i><b>2.3</b> Outliers</a></li>
+<li class="chapter" data-level="2.4" data-path="descripcion-de-la-interface.html"><a href="descripcion-de-la-interface.html#multivariante"><i class="fa fa-check"></i><b>2.4</b> Multivariante</a></li>
+<li class="chapter" data-level="2.5" data-path="descripcion-de-la-interface.html"><a href="descripcion-de-la-interface.html#regression"><i class="fa fa-check"></i><b>2.5</b> Regression</a></li>
+<li class="chapter" data-level="2.6" data-path="descripcion-de-la-interface.html"><a href="descripcion-de-la-interface.html#stadistics"><i class="fa fa-check"></i><b>2.6</b> Stadistics</a></li>
+<li class="chapter" data-level="2.7" data-path="descripcion-de-la-interface.html"><a href="descripcion-de-la-interface.html#graphics"><i class="fa fa-check"></i><b>2.7</b> Graphics</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="fieldbook-1.html"><a href="fieldbook-1.html"><i class="fa fa-check"></i><b>3</b> FieldBook</a></li>
+<li class="chapter" data-level="4" data-path="outliers-1.html"><a href="outliers-1.html"><i class="fa fa-check"></i><b>4</b> outliers</a></li>
 <li class="chapter" data-level="5" data-path="multivariate.html"><a href="multivariate.html"><i class="fa fa-check"></i><b>5</b> Multivariate</a></li>
 <li class="chapter" data-level="6" data-path="statistic.html"><a href="statistic.html"><i class="fa fa-check"></i><b>6</b> Statistic</a></li>
-<li class="chapter" data-level="7" data-path="graphics.html"><a href="graphics.html"><i class="fa fa-check"></i><b>7</b> Graphics</a></li>
+<li class="chapter" data-level="7" data-path="graphics-1.html"><a href="graphics-1.html"><i class="fa fa-check"></i><b>7</b> Graphics</a></li>
 <li class="divider"></li>
 <li><a href="http://ec2-34-209-148-38.us-west-2.compute.amazonaws.com:3838/sample-apps/fieldbook/">FieldBook app</a></li>
 
@@ -94,28 +102,46 @@
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="header">
-<h1 class="title">Fieldbook application user manual</h1>
-<h4 class="author"><em>Flavio Lozano Isla, Jimmy Gomez Carrion, Felipe de Mendiburu</em></h4>
-<h4 class="date"><em>2017-06-20</em></h4>
+<div id="descripcion-de-la-interface" class="section level1">
+<h1><span class="header-section-number">2</span> Descripción de la Interface</h1>
+<p>La aplicación se separa en itms de análisis estadísticos:</p>
+<div id="fieldbook" class="section level2">
+<h2><span class="header-section-number">2.1</span> FieldBook</h2>
+<p>Aqui podrás contruir tu libro de campo, es decir, exportar el único formato que entiende la computadora para que después puedas cargar la data.</p>
 </div>
-<div id="que-es-fieldbook" class="section level1">
-<h1><span class="header-section-number">1</span> ¿Qué es fieldbook?</h1>
-<p><strong>FieldBook</strong> es una aplicación de servicio estadístico <em>online</em> multiplataforma de interfaz amigable, intuitiva, y óptima; que busca ágilizar el desarrollo y validación de productos en las organizaciones inmersas en el sector Agropecuario e industrial, en el que normalmente de desarrollan experimentos en pro de la mejora de un producto o servicio.</p>
-<p>El uso de la plataforma es diversa, pero hace énfasis en el sector agropecuario donde normalmente necesitamos evaluar la Letalidad de un nuevo insumo para controlar una plaga o enfermedad, ya sea este producto sintético u orgánico, realizar pruebas de comparación de varios tipos de fertilizantes-enmiendas; el ingreso de variedades mejoradas, necesariamente deben de ser validados estadísticamente. Sin embargo, ello no quita su aplicación en otras áreas; como el comparar el rendimiento de nuevas baterias de celulares a climas extemos, por poner un ejemplo.</p>
-<p><strong>FieldBook</strong> es soporte para todos los trabajos antes mencionados y más, ellos deben de iniciar con la construcción de la libreta de campo. Es decir, la plataforma permite personalizar tu libreta (de campo) de acuerdo al diseño experimental que empleará, las varibles que analizará, las repeticiones que tendrá, etc.</p>
-<p>Una vez construida la libreta la podrás exportar e formato <em>.cvs ó .xlsx</em> para la colecta de datos, esta misma libreta será importada a la plataforma y siguiendo una ruta lógica recurrente vizualizarás en tiempo real la distribución de los datos, el nivel de correlación, comparación de medias, entre otras pruebas.</p>
-<p>Bienvenido al fascinante mundo de la innovación científica, nunca ántes el poder de las estadísticas a han estado <strong>a un clic de transformar los datos en conocimiento.</strong></p>
-<p><img src="img/canvas.png" width="404" style="display: block; margin: auto;" /></p>
+<div id="importdata" class="section level2">
+<h2><span class="header-section-number">2.2</span> Importdata</h2>
+<p>Una vez recogido los datos en el formato antes exportados, ahora aquí los cargaremos a la plataforma y podrás usar la herramienta fieltro para elegir los factores y variables.</p>
+</div>
+<div id="outliers" class="section level2">
+<h2><span class="header-section-number">2.3</span> Outliers</h2>
+<p>Seguidamente, podrás dar una vista rápida a la distribución y sismetria de tus datos mediante la construcción de diagramas de cajas o boxplot.</p>
+</div>
+<div id="multivariante" class="section level2">
+<h2><span class="header-section-number">2.4</span> Multivariante</h2>
+<p>Aqui se presentan pruebas de correlación, analisis de componentes principales y correlación de pearson, para su descarga</p>
+</div>
+<div id="regression" class="section level2">
+<h2><span class="header-section-number">2.5</span> Regression</h2>
+<p>Se contruyen modelos de regresión lineal, visualización de la ecuación y representación gráfica, para su exportación</p>
+</div>
+<div id="stadistics" class="section level2">
+<h2><span class="header-section-number">2.6</span> Stadistics</h2>
+<p>Se desarrollan el análisis de varianza y prueba de comparación de medias mostrada en cuadros resúmen sensible a ser exportadas.</p>
+</div>
+<div id="graphics" class="section level2">
+<h2><span class="header-section-number">2.7</span> Graphics</h2>
+<p>La visualización de los resultados en gráfico de barras o líneas en b/n y colores.</p>
 
+</div>
 </div>
             </section>
 
           </div>
         </div>
       </div>
-
-<a href="descripcion-de-interface.html" class="navigation navigation-next navigation-unique" aria-label="Next page""><i class="fa fa-angle-right"></i></a>
+<a href="index.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="fieldbook-1.html" class="navigation navigation-next " aria-label="Next page""><i class="fa fa-angle-right"></i></a>
 
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
 <script src="libs/gitbook-2.6.7/js/lunr.js"></script>
@@ -143,7 +169,7 @@ gitbook.start({
 "size": 2
 },
 "edit": {
-"link": "https://github.com/Flavjack/fieldbook-usm/blob/master/index.Rmd",
+"link": "https://github.com/Flavjack/fieldbook-usm/blob/master/interface.Rmd",
 "text": "Edit"
 },
 "download": null,
