@@ -89,7 +89,7 @@
 </ul></li>
 <li class="chapter" data-level="5.2" data-path="multivariate.html"><a href="multivariate.html#analisis-de-componentes-principales"><i class="fa fa-check"></i><b>5.2</b> Analisis de componentes principales</a></li>
 </ul></li>
-<li class="chapter" data-level="6" data-path="regresion.html"><a href="regresion.html"><i class="fa fa-check"></i><b>6</b> Regresion</a></li>
+<li class="chapter" data-level="6" data-path="regression-1.html"><a href="regression-1.html"><i class="fa fa-check"></i><b>6</b> Regression</a></li>
 <li class="chapter" data-level="7" data-path="statistic.html"><a href="statistic.html"><i class="fa fa-check"></i><b>7</b> Statistic</a></li>
 <li class="chapter" data-level="8" data-path="graphics-1.html"><a href="graphics-1.html"><i class="fa fa-check"></i><b>8</b> Graphics</a></li>
 <li class="divider"></li>
@@ -115,23 +115,22 @@
 <div id="outliers-1" class="section level1">
 <h1><span class="header-section-number">4</span> Outliers</h1>
 <p>Aquí se visualizan los valores atípicos, y permite al investigador tomar desiciones, como realizar una transfomación de datos ó suprimir valores atípicos.</p>
-<p>Para nuestro ejemplo, en <strong>Response</strong> seleccionar la variable respuesta del desplegable y al pie <strong>Ylabel</strong> escribiremos el rótulo del eje de la ordenadas.</p>
-<pre><code>Aquí se coloca el rotulo de las ordenas en cual permite  notacion cientifica y  simbología no permitida siempre y cuando, vaya entre comillas (&quot;&quot;). Ver ejemplo: Damage (&quot;%&quot;)     escribira      Damage (%)</code></pre>
+<p>Para nuestro ejemplo, en <strong>Response</strong> seleccionar la variable respuesta del desplegable y al pie <strong>Ylabel</strong> escribiremos el rótulo del eje de la ordenadas, se coloca el rótulo de las ordenadas, el cual permite notacion cientifica y simbología no permitida siempre y cuando, vaya entre comillas (&quot; “).</p>
+<p>Por ejemplo: <strong>Damage (“%”)</strong> imprimirá <strong>Damage (%)</strong></p>
 <p>Con el mismo criterio escogeremos uno de los factores en <strong>Axis X</strong>. Para nuestro ejemplo deseamos mostrar en el eje de las abscisas los Huespedes de la enfermedad y sobre el plano cartesiano <strong>(Grouped)</strong> el <em>patogeno</em> con sus dos subfactores: <em>inoculado</em> y <em>noinoculado</em>.</p>
 <div class="figure">
-<img src="img/006_outliers.png" alt="outliers. Selector de tratamientos, rotulos y escala " />
-<p class="caption"><strong>outliers. Selector de tratamientos, rotulos y escala </strong></p>
+<img src="img/006_outliers.png" alt="outliers. Selector de tratamientos, rótulos y escala " />
+<p class="caption"><strong>outliers. Selector de tratamientos, rótulos y escala </strong></p>
 </div>
 <pre><code>Amarillo: Elegir la varaible respuesta que desea visulizar y su rótulo.
 verde: Elegir el Tratamiento  a mostrar en el eje de la abscisas.
 rojo: Elegir el Tratamiento  a mostrar en el plano cartesiano.  
 Azul: Elegir la escala de los ejes y el tamaño de letra.  </code></pre>
-<p>Ademas en <strong>Ylabel</strong> y <strong>Xlabel</strong> permite:</p>
-<pre><code>Si desea escribir: 
-La formula del agua: H[2] O  
-La formula de kilómetros por hora: km. Hr^{-1} 
-La concentracion de ácido sulfúrico:&quot;[&quot; SO[4] .H[2] &quot;]&quot;
-*IMPORTANTE: Terminado de escribir el rotulo NO dejar espacio en blanco.</code></pre>
+<p>Además en <strong>Ylabel</strong> y <strong>Xlabel</strong> permite escribir formulas como</p>
+<p>La formula del agua: <strong>H[2] O </strong></p>
+<p>La formula de kilómetros por hora: <strong>km. Hr^{-1} </strong></p>
+<p>La concentracion de ácido sulfúrico:<strong>“[&quot; SO[4] .H[2] “]”</strong></p>
+<p>*IMPORTANTE: Terminado de escribir el rotulo NO dejar espacio en blanco.</p>
 <p>Ahora, elegimos otra variable respuesta:</p>
 <p>Del desplegable <strong>response</strong> elegimos <em>LengthRootKm</em>, <strong>Axis X</strong> elegimos <em>patogeno</em> y finalmente <strong>Grouped</strong>, <em>huesped</em>, del mismo modo debemos de cambiar los <em>labels</em> puesto que el la imagen aún no las hemos cambiado.</p>
 <div class="figure">
@@ -143,8 +142,7 @@ La concentracion de ácido sulfúrico:&quot;[&quot; SO[4] .H[2] &quot;]&quot;
 <img src="img/006_1outliers.png" alt="outliers. Response: LengthRootKm. AxisX: huesped" />
 <p class="caption"><strong>outliers. Response: LengthRootKm. AxisX: huesped</strong></p>
 </div>
-<p>Queda a criterio del investigador la mejor manera de presentar sus datos, siempre que sea la más legible de la formas.</p>
-<pre><code>Finalmente debemos precisar que para estas imagenes, hay tres puntos rojos (flecha azul) estos son los datos fuera de tipo (outliers), aumentando la desviación estandar.</code></pre>
+<p>Finalmente debemos precisar que para estas imagenes, hay tres puntos rojos (flecha azul) estos son los datos fuera de tipo (outliers), el cual en consecuencia aumenta el coeficiente de variabilidad.</p>
 
 </div>
             </section>

@@ -1,26 +1,26 @@
 # Descripción de la Interface
 
-La aplicación se separa en itms de análisis estadísticos:
+La aplicación se separa en itms para el análisis estadísticos, los cuales se describen a continuación:
 
 ## FieldBook
 
-Aqui podrás  contruir tu libro de campo, es decir, exportar el único formato que  entiende la computadora para que después puedas cargar la data.
+Aqui podrás  construir tu libro de campo, es decir, diseñar y exportar el único formato que  entiende la computadora para su posterior análisis.
 
 ## Importdata
 
-Una vez recogido los datos en el formato antes exportados, ahora aquí los cargaremos a la plataforma y podrás usar la herramienta fieltro para elegir los factores y variables.
+Una vez recogido los datos en el formato antes exportados, ahora aquí los cargaremos en la plataforma *FieldBook* y podrás usar la herramienta filtro para elegir los factores de interés.
 
 ## Outliers
 
-Seguidamente, podrás  dar una vista rápida a la distribución y sismetria de tus datos mediante la construcción de diagramas de cajas o boxplot.
+Seguidamente, podrás  dar una vista rápida a la distribución y simetria de tus datos mediante la construcción de diagramas de cajas o boxplot.
 
 ## Multivariante
 
-Aqui se presentan pruebas de correlación, analisis de componentes principales y correlación de pearson, para su descarga
+Aqui se presentan pruebas de correlación, analisis de componentes principales y correlación de pearson.
 
 ## Regression
 
-Se contruyen modelos de regresión lineal, visualización de la ecuación y representación gráfica, para su exportación
+Se contruyen modelos de regresión lineal, visualización de la ecuación y representación gráfica.
 
 ## Stadistics
 

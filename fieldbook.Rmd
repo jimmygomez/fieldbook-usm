@@ -5,7 +5,7 @@ output:
 ---
 # FieldBook
 
-FieldBook  contruye libretas de campo, el cual sigue  un correcta estructuración de los datos para su posterior análisis, exportando la libreta en un estructura  que entienda el computador. Pero, ¿Qué son los datos estructurados?
+FieldBook  construye libretas de campo, el cual sigue  un correcta estructuración de los datos para su posterior análisis, exportando la libreta en un estructura  que entienda el computador. Pero, ¿Qué son los datos estructurados?
 
 ##Datos estructurados
 
@@ -13,18 +13,17 @@ Nos referimos al arreglo que alberga todas las condiciones del diseño experimen
 
 Motivo por el cual los datos deben de ordenarse siguiendo las siguientes consideraciones desde el comienzo:
 
-**1.- **cada variable es una columna,
+**1.- cada variable es una columna**,
 
-**2.- **cada obervación es una fila, y
+**2.- cada obervación es una fila**, y
 
-**3.- **una unidad experimental por celda.
+**3.- una unidad experimental por celda**.
 
-Todas estas condiciones deben de ser estructuras en una única hoja, de la siguiente manera.
+Todas estas condiciones del trabajo  deben  ser estructuras en una única hoja, de la siguiente manera.
 
 ![**Datos Estructurados: ** ](img/etiqueta.png)
 
- 
-A continuación, un ejemplo. Se realiza un experimento donde se desea saber el efecto de una enfermedad sobre  indiviudos de la misma especie pero diferentes cargas genéticas.
+ A continuación, un ejemplo. Se realiza un experimento donde se desea saber el efecto de una enfermedad sobre  individuos de la misma especie pero diferentes cargas genéticas.
 
 _Antillano_, 
 _Mexicano_, 
@@ -39,7 +38,6 @@ _noinoculado_
 Los hospederos de dicha enfermedad tendrán la condiciones del invernadero y patógeno virulante. Se deses comparar como responden estos individuos a la enfermedad. Por tal razón el diseño estadístico sera un: 
 
   **Diseño completamente al azar con dos factores**
-
 
 De dos factores: hospedero y patógeno. Ademas, debera de evaluarse en el tiempo (**8 evaluaciones**) para conocer el progreso de la enfermedad, tendra **6 repeticiones** en cada evaluación (*6 plantas de palto*) y la variable respuesta será:
 

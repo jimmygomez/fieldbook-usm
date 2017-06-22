@@ -33,8 +33,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
   
   <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
-<link rel="prev" href="outliers-1.html">
-<link rel="next" href="regression-1.html">
+<link rel="prev" href="multivariate.html">
+<link rel="next" href="statistic.html">
 
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
@@ -112,67 +112,56 @@
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="multivariate" class="section level1">
-<h1><span class="header-section-number">5</span> Multivariate</h1>
-<p>En <strong>Multivariate</strong> tenemos dos presentaciones de las variables respuestas. <strong>Correlation</strong> de Pearson y <strong>PCA</strong> (Ánalisis de componentes principales) ambos con sus respectivos gráficos. Estos nos permite conocer el grado de correlacion de las variables y el agrupamiento de los datos.</p>
+<div id="regression-1" class="section level1">
+<h1><span class="header-section-number">6</span> Regression</h1>
+<p>En regresión se puede construir modelos de regresion lineal simple, en <strong>Variable</strong> seleccionar la variable respuesta en la caja azul y verde, para el eje de las ordenadas y abscisas respectivamente.</p>
+<p>Al pie de cada caja se encuentra la casilla <strong>Label</strong> el cual se encuentran vacias, pero allí se le puede cambiar el rótulo al eje, pues de no modificarlo tomará el nombre de la columna con el que fue cargada la libreta de campo.</p>
+<p>En <strong>Brakes</strong> se trata de la segmentación de los ejes, y la mecánica es la misma mostrada en la construcción del <em>itm</em> <strong>Outliers</strong>.</p>
 <div class="figure">
-<img src="img/007_0multivariante.png" alt="correlation y pca" />
-<p class="caption"><strong>correlation y pca</strong></p>
+<img src="img/rlavel.png" alt="Selección de variables: " />
+<p class="caption"><strong>Selección de variables: </strong></p>
 </div>
-<div id="correlation" class="section level2">
-<h2><span class="header-section-number">5.1</span> correlation</h2>
-<p>En el cuadro de la izquierda <strong>Correlation</strong> de Pearson muestra el grado de <strong>Significance</strong>. Por defecto se trabaja con un grado de significancia igual al 5%, pero en el desplegable se puede elegir el nivel de significancia.</p>
-<p>La <strong>Correlation</strong> permite conocer el grado de relacion que tiene cada variable respuesta respecto a la otra, en un rango de <strong>+1 a -1</strong>, si el valor absoluto de la correlación es cercano a <strong>1</strong> indica que presenta una <em>magnitud</em> relación muy estrecha, y el signo es positivo o negativo indica que es una relación directa o inversa, respectivamente.</p>
-<p>En <strong>Font</strong> se puede escoger el tamaño de fuente, el cual por defecto es <strong>1</strong> es el tamaño de fuente más apropiado si se desea copiar la imagen para imprimir. Por último, <strong>color</strong>, en este se colocaran los colores HTML de su preferencia separados por un espacio para representar dicha correlación, notar que el orden como se ingresan los códigos de colores HTML es importante.</p>
-<div id="colors-html" class="section level3">
-<h3><span class="header-section-number">5.1.1</span> colors HTML</h3>
-<p>Para un mejor empleo de los colores HTML en <strong>Multivariate</strong>, se debera colocasr los <strong>colores HTML</strong> o llamar a los colores primarios por su nombre, como:</p>
-<p><em>yellow</em>, <em>red</em>, <em>green</em>, <em>blue</em>, <em>orange</em>, <em>black</em>, <em>gray</em>, <em>white</em>.</p>
-<p>Una forma practica de obtener el código de color HTLM es usando un <strong>eyes dropper</strong>, una vez instalado en su navegador, ingresar al <strong>color picker</strong>. Copiar el cÓdigo del color como señala el elipse.</p>
+<p>despues de igresada las variables se contruye la gráfica de regresión linealla ecuación y el coeficiente de correlación de Pearson.</p>
 <div class="figure">
-<img src="img/colors_picker.png" alt="colors HTML, eyes dropper. En rojo: cuenta gotas. En verde: copiar codigo de color" />
-<p class="caption"><strong>colors HTML</strong>, eyes dropper. <strong>En rojo:</strong> cuenta gotas. <strong>En verde:</strong> copiar codigo de color</p>
+<img src="img/rgrafico.png" alt="Regresión lineal: " />
+<p class="caption"><strong>Regresión lineal: </strong></p>
 </div>
-<p>Copiado el codigo de color HTML, pegar en <strong>Multivariate - correlation - color</strong>.</p>
-<p>Es asi como puede personalizar sus graficos de la <strong>Correlation</strong>.</p>
+<p>Note además que los cambios realizados en <strong>lavel</strong> han modificado el nombre a los ejes, cambiando los nombre originales por <em>Longitud de la raíz</em> para el eje de la ordenadas y Peso <em>seco de la raíz</em>.</p>
+<p>En la caja <strong>Grouped</strong> define el factor que se va a grupar en la contrucción de la ecuación lineal, para el ejemplo selccionamos el factor Huesped, en el que se tienes 4 subniveles. Entonces se graficarán 4 rectas, pero notar la la ecuación representa la recta promedio de esos cuatro subniveles.</p>
+<p>Al pie de la caja roja se ubica <strong>Legend</strong> el que cambiar el nombre a la leyenda, el cual representa por defecto el nombre de la columna (el factor) con el que se contruyó la libreta de campo. Junto se ubica <strong>Levels</strong> ambos puedes modificcar los nombre de los subniveles del factor seleccionado.</p>
+<p>La consideración que debe tener para modificar <strong>Levels</strong> es que para modificar los nombre solo basta hacer dos espacios con la barra espaciadora para saltar al otro subnivel.</p>
+<p>Para el ejemplo se ha cambido el rótulo por defecto por <em>cinnamomi</em> y los subniveles por <em>g1</em> <em>g2</em> <em>g3</em> <em>g4</em></p>
 <div class="figure">
-<img src="img/007_07multivariante.png" alt="correlation y PCA - Type var" />
-<p class="caption"><strong>correlation y PCA</strong> - Type var</p>
+<img src="img/rlavel1.png" alt="Selección de variables agrupado por: Huesped " />
+<p class="caption"><strong>Selección de variables agrupado por: Huesped </strong></p>
 </div>
-</div>
-</div>
-<div id="analisis-de-componentes-principales" class="section level2">
-<h2><span class="header-section-number">5.2</span> Analisis de componentes principales</h2>
-<p>En el analisis de los componentes principales (PCA), se tiene el desplegable <strong>Type</strong> donde se presenta <em>biplot</em>, <em>var</em> e <em>ind</em>; y junto a <strong>Variable</strong>, se puede escoger el plano que mejor grafique el proposito, ó la combinacion de estos.</p>
-<p><strong>PCA- Type</strong> permite encoger <em>var</em> el que representa la correlacion de las variables respuestas en una grafica simple de radio = <strong>1</strong>. El cual tienen el mismo marco conceptual que <strong>Correlation</strong> visto lineas arribas, pero en representación grafica y la variable de agrupamiento.</p>
-<p>La variable respuestas poseen una <em>magnitud</em> y <em>direccion</em> respecto a los cuadrantes del plano cartesiano.</p>
-<pre><code>Para el ejemplo observamos que se mueven una dirección opuesta (relacion inversa) y magnitud cercano a cercana a &quot;1&quot; (una correlaciin alta) entre Damage y LengthRootKm. Al investigador le interesan particularmente estas dos variables, puesto se esta estudiando la damage que causa un patogeno a las raices, es prioritario centrar su atención sobre los sintomas primarios (el deterioro de la raices).  </code></pre>
+<p>Note además que tanto en las cajas de color verde y azul se han modificado los rótulos de los ejes, con la unidades respectivas, si se desea ingresar simbología extraña, visitar <em>itm</em> <strong>Outliers</strong>.</p>
 <div class="figure">
-<img src="img/damage_length.png" alt="Relacion Damage y LengthRootKm inoculado y noinoculado (control)" />
-<p class="caption"><strong>Relacion Damage y LengthRootKm</strong> <em>inoculado</em> y <em>noinoculado</em> (control)</p>
+<img src="img/rgrafico1.png" alt="Regresion lineal agrupados por: Huesped " />
+<p class="caption"><strong>Regresion lineal agrupados por: Huesped </strong></p>
 </div>
-<p>En el item <strong>FieldBook</strong> se construyó la libreta de campo y el orden como se contruye la columna: repetición, bloque, factores y variables, es importante a la hora de escoger en <strong>Multivariate - PCA - Variable</strong>,la columna que va a representar.</p>
-<pre><code>Para el ejemplo, cuando elige la varible 2, elige la columna 2, que representa a las evaluaciones por lo que en la leyenda irá las evaluaciones con su respectivo color, y en label, tiene la oportunidad de cambiar el rótulo de la columna, puede cambiar eva  por Evaluación, por ejemplo.</code></pre>
+<p>En la caja de exportación, encuentras:</p>
+<p><strong>Size</strong> Modifica el tamaño de fuente, por defecto 2, pero se recomiendo descargar la imagen en fuente Size 1.</p>
+<p><strong>Color</strong> Modifica el color que va tener la figura, a colores ó en blanco y negro.</p>
+<p><strong>Legend</strong> Modifica la ubicación de la leyenda, <em>none</em>: sin leyenda, <em>left</em>: izquierda. <em>right</em>: derecha. <em>top</em>: arriba. <em>bottom</em>: abajo.</p>
+<p><strong>Eq.x</strong> Modifica la ubicación de la ecuación lineal en el eje de la abscisas. <strong>Eq.y</strong> Modifica la ubicación de la ecuación lineal en el eje de la ordenadas.</p>
+<p>Ambos pares ordendados (<strong>Eq.x</strong>,<strong>Eq.y</strong>) señalan donde se ubicará la ecuación lienal en el plano.</p>
+<p><strong>height</strong> Modifica la altura de la figura.</p>
+<p><strong>weight</strong> Modifica lo ancho de la figura.</p>
+<p><strong>TIF(300dip)</strong> Es el formato en el que se descarga la figura, es el formato <strong>TIF</strong> el que se requiere para las publicaciones académicas.</p>
 <div class="figure">
-<img src="img/007_02multivariante.png" alt="PCA Los ejes en gris representan el % de variación de la variancia para cada componente." />
-<p class="caption"><strong>PCA</strong> <em>Los ejes en gris</em> representan el % de variación de la <em>variancia</em> para cada componente.</p>
+<img src="img/rtable.png" alt="caja de exportación " />
+<p class="caption"><strong>caja de exportación </strong></p>
 </div>
-<pre><code> &lt;El análisis de componentes principales suele ser muy utilizanda cuando se desea relacionar la presencia de un especie de cuerdo al habitat, por poner un ejemplo&gt;</code></pre>
-<div class="figure">
-<img src="img/007_multivariante.png" alt="Correlation y Analisis de componentes principales" />
-<p class="caption"><strong>Correlation y Analisis de componentes principales</strong></p>
-</div>
-<p>El eje de las componentes principales representa el <em>porcentaje de variabilidad de la varianza</em> y no tiene otro significado del que le da el investigador.</p>
 
-</div>
 </div>
             </section>
 
           </div>
         </div>
       </div>
-<a href="outliers-1.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="regression-1.html" class="navigation navigation-next " aria-label="Next page""><i class="fa fa-angle-right"></i></a>
+<a href="multivariate.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="statistic.html" class="navigation navigation-next " aria-label="Next page""><i class="fa fa-angle-right"></i></a>
 
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
 <script src="libs/gitbook-2.6.7/js/lunr.js"></script>
@@ -200,7 +189,7 @@ gitbook.start({
 "size": 2
 },
 "edit": {
-"link": "https://github.com/Flavjack/fieldbook-usm/blob/master/multivariate.rmd",
+"link": "https://github.com/Flavjack/fieldbook-usm/blob/master/regression.rmd",
 "text": "Edit"
 },
 "download": null,
