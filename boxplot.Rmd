@@ -1,33 +1,41 @@
 # Outliers
 
-Aquí se visualizan los valores atípicos, y permite al investigador tomar desiciones, como realizar una transfomación de datos ó suprimir valores atípicos.
+Aquí se visualizan los valores atípicos, y permite al investigador tomar desiciones, como realizar una transfomación de datos ó suprimir valores atípicos. En resumen es un vistazo al análisis de los datos.
 
-Para nuestro ejemplo, en **Response** seleccionar la variable respuesta del desplegable y al pie **Ylabel** escribiremos el rótulo del eje de la ordenadas, se coloca el rótulo de las ordenadas, el cual permite  notacion cientifica y  simbología no permitida siempre y cuando, vaya entre comillas (" "). 
+Continuando con el ejemplo de  un diseño completamente al azar con dos factores, en **Response** seleccionar la variable respuesta del desplegable y al pie **Ylabel** escribiremos el rótulo del eje de las ordenadas se coloca el rótulo de para ese eje, el cual permite  notacion cientifica y  simbología no permitida siempre y cuando, vaya entre comillas (" "). 
 
 Por ejemplo: **Damage ("%")**   imprimirá      **Damage (%)**
 
-Con el mismo criterio escogeremos uno de los factores en **Axis X**. Para nuestro ejemplo deseamos mostrar en el eje de las abscisas los Huespedes de la enfermedad y sobre el plano cartesiano **(Grouped)** el _patogeno_ con sus dos subfactores: _inoculado_ y _noinoculado_.
+Con el mismo criterio escoger uno de los factores en **Axis X**. Para nuestro ejemplo deseamos mostrar en el eje de las abscisas el factor _huesped_ de la enfermedad y sobre el plano cartesiano **(Grouped)** el _patogeno_ con sus dos subfactores: _inoculado_ y _noinoculado_.
 
 ![**outliers. Selector de tratamientos, rótulos y escala **  ](img/006_outliers.png)
 
-    Amarillo: Elegir la varaible respuesta que desea visulizar y su rótulo.
+    Amarillo: Elegir la variable respuesta que deseé visualizar y su rótulo.
     verde: Elegir el Tratamiento  a mostrar en el eje de la abscisas.
-    rojo: Elegir el Tratamiento  a mostrar en el plano cartesiano.  
+    rojo: Elegir el agrupamiento  a mostrar sobre el plano cartesiano.  
     Azul: Elegir la escala de los ejes y el tamaño de letra.  
 
-Además en **Ylabel** y **Xlabel** permite escribir formulas como
+_clic derecho para descargar imagen_
 
-  La formula del agua: **H[2] O  **
+Además en **Ylabel** y **Xlabel** permite escribir fórmulas como:
+
+  La fórmula del agua: **H[2] O  **
   
-  La formula de kilómetros por hora: **km. Hr^{-1} **
+  La fórmula de kilómetros por hora: **km. Hr^{-1} **
   
-  La concentracion de ácido sulfúrico:**"[" SO[4] .H[2] "]"**
+  La concentración de ácido sulfúrico:**"[" SO[4] .H[2] "]"**
   
-  *IMPORTANTE: Terminado de escribir el rotulo NO dejar espacio en blanco.
+  **IMPORTANTE:** Terminado de escribir el rótulo **NO dejar espacio en blanco la final**.
 
 Ahora, elegimos otra variable respuesta:
 
-Del desplegable **response** elegimos _LengthRootKm_, **Axis X** elegimos _patogeno_ y finalmente **Grouped**, _huesped_, del mismo modo debemos de cambiar los _labels_ puesto que el la imagen aún no las hemos cambiado.
+Del desplegable **response** elegimos la variable respuesta: _LengthRootKm_,
+
+para el eje de las abscisas **Axis X** elegimos el factor _patogeno_, y finalmente
+
+en **Grouped**, el factor _huesped_, note como difieren las gráficas para ambas figuras, los niveles se agrupan de diferentes modos, para este último caso los niveles del factor Patogeno se ubican en el eje de las "x" y el factor huesped se encuentra dentro del plano cartesiano.
+
+De suprimir los label, el programa asignará por defecto los rótulos de las cabeceras con el que fue ingresado la base de datos, pero estos pueden ser reasignados en label para cada eje y agrupamiento.
 
 ![**outliers. Response: LengthRootKm.  AxisX: patogeno**  ](img/006_0outliers.png)
 
@@ -35,4 +43,4 @@ Otro forma de presentar la misma variable es la siguiente:
 
 ![**outliers. Response: LengthRootKm.  AxisX: huesped**   ](img/006_1outliers.png)
 
-Finalmente debemos precisar que para estas imagenes, hay tres puntos rojos (flecha azul) estos son los datos fuera de tipo (outliers), el cual en consecuencia aumenta el coeficiente de variabilidad.
+Finalmente debemos precisar que para estas imagenes, hay  puntos negros que se salen de bigote (**datos fuera de tipo**) y tres puntos rojos (ver flecha azul) le cual son datos **muy fuera de tipo**, los  cuales en consecuencia aumentan la desviación estandar.

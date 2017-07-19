@@ -41,15 +41,19 @@ knitr::write_bib(c(
 
 # ¿Qué es  fieldbook?
 
-**FieldBook** es una aplicación  de servicio estadístico _online_  multiplataforma de interfaz amigable, intuitiva, y óptima; que busca ágilizar el desarrollo y validación de productos en las instituciones inmersas en el sector Agropecuario e industrial, en el que normalmente de desarrollan experimentos en pro de la mejora de un producto o servicio.
+**FieldBook** es una aplicación  de servicio estadístico _online_  multiplataforma de interfaz amigable, intuitivo, y óptimo; que busca ágilizar el desarrollo y validación de productos en las instituciones inmersas en el sector Agropecuario e industrial, en el que normalmente se desarrollan experimentos en pro de la mejora de un producto o servicio.
 
-El uso de la plataforma es diversa, pero hace énfasis en el sector agropecuario donde normalmente necesitamos realizar ensayos para evaluar la Letalidad de un nuevo insumo (químico o natural), mejora la fertilidad del suelo (fertilizante y/o enmiendas), introducción de nuevas variedades de cultivares. Necesariamente se deben de realizar pruebas de comparación de medias que validen científicamente la mejora del producto o servicio. Sin embargo, ello no quita su aplicación en otras áreas; como el comparar el rendimiento de nuevas baterias de celulares a climas extemos, por poner un ejemplo. 
+El uso de la plataforma es diversa, pero hace énfasis en el sector agropecuario donde normalmente necesitamos realizar experimentos con la finalidad de aceptar o rechazar un supuesto. 
 
-**FieldBook** es soporte para todos los trabajos antes mencionados y más, ellos deben de iniciar con la construcción de la libreta de campo. Es decir, la plataforma permite no solo el análisis sino que apriori permite el planteamiento del diseño experimental, escoger le diseño a utilizar, los factores y niveles del factor, el numero de repeticiones, el numero de evaluaciones que se realizarán y las variables que tendrá. Entonces cuando el experimento esta planteado, se contruye la libreta (de campo).
+Normalmente estamos en la busqueda de nuevos insumos  que ayuden al control de plagas y enfermedades. Es una preocupación constante encontrar productos que ayuden a mantener dichas poblaciones en niveles que no ocasionen daño económico al agricultor y que sean a su vez amigables con el ambiente, mejorar la fertilidad del suelo en pro de una mejor nutricón mineral de las plantas (fertilizante y/o enmiendas) los cuales pueden ser medidos en indicativos como el acumulacion de materia seca, rendimiento, grados brix, etc.
 
-Una vez construida la libreta la podrás exportarla e formato _.cvs ó .xlsx_ para la colecta de datos, esta misma libreta será importada a la plataforma y siguiendo una ruta lógica recurrente vizualizarás en tiempo real la distribución de los  datos, el nivel de correlación, comparación de medias, entre otras pruebas.
+Para la introducción de nuevas variedades de cultivares, necesariamente se deben de realizar pruebas de comparación de medias que validen científicamente la mejora de la variedad que se pretende introducir. Pero como se señala estas pruebas de analisis estadístico no son estrictas del sector agropecuario, pueden ser aplicadas en otras áreas; como cuando se quiere comparar el rendimiento de nuevas baterias, por poner un ejemplo. 
 
-Bienvenido al fascinante mundo de la innovación científica, nunca ántes el poder de las estadísticas a han estado **a un clic de transformar los datos en conocimiento.**
+**FieldBook** es soporte para todos los trabajos antes mencionados y más, ellos deben de iniciar con la construcción de un diseño experimental reflejada en una libreta de campo. Es decir, la plataforma permite no solo el análisis sino que apriori permite el planteamiento del experimento.
+
+Es de vital importancia que ántes de iniciar un actividad tan importante como el desarrollo de un experimento que valide científicamente tu hipótesis, es necesario que te apegues al método científico y tomes distancia de tus creencias e interéses, solo así podrás desentrañar los misterios que la naturaleza guarda.
+
+Entonces, bienvenido al fascinante mundo de la innovación científica. Nunca ántes el poder de las estadísticas han estado **a un clic de transformar los datos en conocimiento.**
 
 
 ```{r, fig.align='center'}

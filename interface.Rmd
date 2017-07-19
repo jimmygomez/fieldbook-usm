@@ -1,8 +1,27 @@
-# Descripción de la Interface
+# Nociones Básicas de Estadística.
 
-La aplicación se separa en itms para el análisis estadísticos, los cuales se describen a continuación:
+Advertencia: No se pretende ser remplazo de un riguroso libro de estadística, apenas tocaremos las nociones mínimas del esta materia.
 
-## FieldBook
+## ¿Qué necesito para utilizar la herramienta FieldBook?
+
+###Diseño experimental
+
+DCA
+DBCA
+CL
+F_DCA
+F_DBCA
+
+Repeticiones
+
+obervaciones
+
+evaluaciones
+
+variables.
+
+parametros
+
 
 Aqui podrás  construir tu libro de campo, es decir, diseñar y exportar el único formato que  entiende la computadora para su posterior análisis.
 
