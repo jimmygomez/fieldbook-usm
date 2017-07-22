@@ -1,8 +1,25 @@
 # Nociones Básicas de Estadística.
 
-Advertencia: No se pretende ser remplazo de un riguroso libro de estadística, apenas tocaremos las nociones mínimas del esta materia.
+Advertencia: El acapite que se presenta a continuación no pretende ser remplazo de un riguroso libro de estadística, apenas tocaremos las nociones mínimas de esta materia, para encaminarlo al análisis utilizando la herramienta FieldBook.
 
 ## ¿Qué necesito para utilizar la herramienta FieldBook?
+
+Recordemos los conceptos básicos.
+###Población:
+
+Es un conjunto de individuos que comparten características en común, en un determinado tiempo y espacio, y presentar características sensibles a ser observadas y/o medidas. Convencionalmente se denota como **N**.
+
+###Muestra:
+
+Las poblaciones por regla general suelen ser muy grandes, y por economía se recomienda extraer un subconjunto de individuos que conforman la ploblación, a esto se le denomina **Muestra**. Convencionalmente se denota como **n**.
+
+La muestra debe ser representativa de la población y el propósito es poder hacer inferencias sobre la población.
+
+###Variables:
+
+La variable es el contenedor que va a recibir el dato de cada observación, y los datos deben pertenecer a la misma característica, propiedad o atributo.
+
+LA variables pueden ser de diferentes maneras
 
 ###Diseño experimental
 
