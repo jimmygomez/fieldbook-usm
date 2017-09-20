@@ -7,7 +7,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title></title>
   <meta name="description" content="">
-  <meta name="generator" content="bookdown 0.4 and GitBook 2.6.7">
+  <meta name="generator" content="bookdown 0.5 and GitBook 2.6.7">
 
   <meta property="og:title" content="" />
   <meta property="og:type" content="book" />
@@ -151,7 +151,8 @@
 <p><em>1.- </em>cada variable es una columna,</p>
 <p><em>2.- </em>cada observación es una fila, y</p>
 <p><em>3.- </em>una unidad experimental por celda.</p>
-<p>otro ejemplo: <a href="https://www.youtube.com/watch?v=XzA10Sdatng" class="uri">https://www.youtube.com/watch?v=XzA10Sdatng</a></p>
+<p>otro ejemplo:</p>
+<p><a href="https://www.youtube.com/watch?v=XzA10Sdatng" class="uri">https://www.youtube.com/watch?v=XzA10Sdatng</a></p>
 </div>
 <div id="diseno-experimental." class="section level2">
 <h2><span class="header-section-number">1.2</span> Diseño Experimental.</h2>
@@ -187,18 +188,18 @@
 <p class="caption"><strong>Fieldbook: diseño de la libreta de campo</strong></p>
 </div>
 <p>Una libreta de campo constuida en FieldBook, además de exportar la libreta de campo randomizado, adiciona una columna denominada <em>ID</em>, el cual correspode al código de identificación de cada unidad experimenta. Por ejemplo, cuando hablamos del <em>U102</em> nos referimos al tratamiento tipo de fertilizante C del bloque1. Y será evaluada dos veces, E1 y E2.</p>
-<p>otro ejemplo. <a href="https://www.youtube.com/watch?v=3WHEoDVy-Aw&amp;feature=youtu.be" class="uri">https://www.youtube.com/watch?v=3WHEoDVy-Aw&amp;feature=youtu.be</a></p>
-<p>A continuación queda colectar los datos en la variable respuesta que corresponda.</p>
+<p>otro ejemplo:</p>
+<p><a href="https://www.youtube.com/watch?v=3WHEoDVy-Aw&amp;feature=youtu.be" class="uri">https://www.youtube.com/watch?v=3WHEoDVy-Aw&amp;feature=youtu.be</a></p>
 </div>
 <div id="nota-importante" class="section level2">
 <h2><span class="header-section-number">1.3</span> Nota importante</h2>
-<p>Al ser esta una plataforma de soporte estadístico no deja de ser riguroso con la nomenclatura y símbolos raros. Evitar ingresar simbolos extraños que <strong>No pertenezcan</strong> al alfabeto ingles. Salvo en <strong>label</strong>, el programa reconoce que haces referencia a un titulo, entonces los caracteres raros solo los imprimira, mas no los analizará. Por ejemplo</p>
+<p>Al ser esta una plataforma de soporte estadístico no deja de ser riguroso con la nomenclatura y símbolos extraños. Evitar ingresar simbolos que <strong>No pertenezcan</strong> al alfabeto ingles. Salvo en <strong>label</strong>, el programa reconoce que se hace referencia a un título, entonces imprimirá estos caracteres como tal. Por ejemplo</p>
 <p><del>palto001</del> incorrecto (dos tratamientos)</p>
 <p><del>pal?to%6“”</del> incorrecto (evitar términos extraños, ???!“#$%&amp;/()=??][{}[^)</p>
 <p>palto_001 correcto (un tratamiento)</p>
 <p>Palto001 correcto (un tratamiento)</p>
 <p><strong>evitar tildes y “ñ”</strong></p>
-<p>Aunque el programa soporta un mínimo de dos repeticiones, se recomienda al menos tener más de tres repeticiones. Siempre existe la posibilidad de pérdida de datos. En caso de ocurrir, mantener la plantilla tal cual y en la casilla donde corresponde el dato pérdido, dejar en blanco (nulo). No cero (0), puesto que es un valor diferente a nulo.</p>
+<p>Aunque el programa soporta un mínimo de dos repeticiones, se recomienda al menos tener más de tres repeticiones. Siempre existe la posibilidad de pérdida de datos. En caso de ocurrir, mantener la plantilla tal cual y en la casilla donde corresponde el dato pérdido, dejar en blanco (nulo ó NA). No cero (0), puesto que es un valor diferente a nulo.</p>
 </div>
 </div>
             </section>
@@ -218,7 +219,7 @@
 <script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
 <script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
 <script>
-require(["gitbook"], function(gitbook) {
+gitbook.require(["gitbook"], function(gitbook) {
 gitbook.start({
 "sharing": {
 "github": true,

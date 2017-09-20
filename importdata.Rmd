@@ -1,13 +1,34 @@
-# import data
+# Import data
 
- Cuando hayas digitalizado tus datos recogidos de campo, de acuerdo a la plantilla diseñada en _Tools_ cargaras en **FieldBook** como url ó como xlsx.
+Una vez colectado los datos, de acuerdo a lo diseñado en _FieldBook Plan_ deberá de ser importado a **FieldBooQ** como url, pegando el link de la hoja de google spreadsheed.
 
-![**FieldBook**, **En amarillo**: Hoja en la que se encuentra tu base de datos que deseas subir. **En verde**: Actualizar  modificaciones  ](img/005_fieldbook.png)
+![**Importar Datos desde google** ](img/005_fieldbook.png)
+
+ó como una hoja de *.xlsx desde tu ordenador, considerar en _Sheet_ el numero de hoja del libre que debe leer, si es la primera hoja es 1, si es la segunda es 2, etc.
+
+![**Importar datos desde el ordenador**](img/gif/Idata_001.gif)
+
+Una vez cargado el archivo. En ocasiones es muy útil realizar un filtro a la base de datos, para un análisis de solo algunos subniveles. Entonces en la herramienta **Filter** podrás seleccionar de la tabla importada los datos que se deseen procesar.
+
+![**Importar datos, Filtro** ](img/filter.png)
+
+De no escoger ningun filtro, se procesará la base de datos completa.
+
+<!--
+```{r, eval=FALSE}
+<iframe width="560", height="315", src="https://www.youtube.com/watch?v=xSLer7p_Q5Y", frameborder="0", allowfullscreen ></iframe>
+```
+
+-->
 
 
-Una vez subido y actualizado el archivo. En ocaciones es muy util cargar una parte de la base de datos para un analisis parcial de bloques o factores, entonces en la herramienta **Filter** podrás filtrar la base de dato de acuerdo al criterio del investigador, tomando los factores que mejor los acerquen a sus propositos. Puede filtrar por evaluación  y algun tratamiento que sea de su particular interes.
 
 
-![**FieldBook - Filter** ](img/filter.png)
 
-De no escoger ningun filtro, se cargara toda la base de datos completa.
+
+
+
+
+
+
+

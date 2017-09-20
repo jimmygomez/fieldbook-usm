@@ -1,32 +1,44 @@
-# Outliers
+# Exploratory Graphic
 
-Aquí se visualizan los valores atípicos, y permite al investigador tomar desiciones, como realizar una transfomación de datos ó suprimir valores atípicos. En resumen es un vistazo al análisis de los datos.
+Aquí se visualizan los valores atípicos, y permite al investigador tomar desiciones, sobre como se va a manejar los datos.
 
-Continuando con el ejemplo de  un diseño completamente al azar con dos factores, en **Response** seleccionar la variable respuesta del desplegable y al pie **Ylabel** escribiremos el rótulo del eje de las ordenadas se coloca el rótulo de para ese eje, el cual permite  notacion cientifica y  simbología no permitida siempre y cuando, vaya entre comillas (" "). 
+
+![**Gráfico exploratorio: Respuesta-Factores**](img/gif/gif_002.gif)
+
+En **Response**, seleccionar la variable respuesta. En **Axis X**, el factor a respresentar en el eje de las abscisas, para el ejemplo: **VARIEDAD**. En **Grouped** se grafican los datos sobre el plano cartesiano, ingresar otro factor si lo hubiera o seleccionar el mismo; para el ejemplo, **CONDICION**.
+
+Al pie en **Ylabel** escribir el rótulo para el eje de las ordenadas, el cuál permite  notación científica y  simbología no permitida siempre que esté se escriba entre comillas, "". 
 
 Por ejemplo: **Damage ("%")**   imprimirá      **Damage (%)**
 
-Con el mismo criterio escoger uno de los factores en **Axis X**. Para nuestro ejemplo deseamos mostrar en el eje de las abscisas el factor _huesped_ de la enfermedad y sobre el plano cartesiano **(Grouped)** el _patogeno_ con sus dos subfactores: _inoculado_ y _noinoculado_.
+Por ejemplo: **damage "%"**   imprimirá      **damage %**
 
-![**outliers. Selector de tratamientos, rótulos y escala **  ](img/006_outliers.png)
+ **IMPORTANTE:** Terminado de escribir el rótulo, **NO dejar espacio en blanco al final**.
+
+![**Gráfico exploratorio: Labels**](img/gif/G_002_1.gif)
+
+**¿Por qué no aparece  el diagrama de caja para el subnivel saludable?** 
+
+Porque la tabla de donde proviene el gráfico no cuenta con esos datos, puesto que la respuesta  es damage (daño); las plantas saludables no han recibido daño. **Por tanto, construido la libreta de campo en Fieldbook plan**, los datos pérdidos ó no evaluados deben dejarse en blanco.
+<!--![**outliers. Selector de tratamientos, rótulos y escala **  ](img/006_outliers.png)
 
     Amarillo: Elegir la variable respuesta que deseé visualizar y su rótulo.
     verde: Elegir el Tratamiento  a mostrar en el eje de la abscisas.
     rojo: Elegir el agrupamiento  a mostrar sobre el plano cartesiano.  
     Azul: Elegir la escala de los ejes y el tamaño de letra.  
+-->
 
-_clic derecho para descargar imagen_
+Tanto en  **Ylabel** y **Xlabel** permite escribir fórmulas como:
 
-Además en **Ylabel** y **Xlabel** permite escribir fórmulas como:
-
+  La fórmula de ejemplo: **valor "S" .g^{-1}**
+  
   La fórmula del agua: **H[2] O  **
   
   La fórmula de kilómetros por hora: **km. Hr^{-1} **
   
   La concentración de ácido sulfúrico:**"[" SO[4] .H[2] "]"**
   
-  **IMPORTANTE:** Terminado de escribir el rótulo **NO dejar espacio en blanco la final**.
-
+<!--
 Ahora, elegimos otra variable respuesta:
 
 Del desplegable **response** elegimos la variable respuesta: _LengthRootKm_,
@@ -40,7 +52,14 @@ De suprimir los label, el programa asignará por defecto los rótulos de las cab
 ![**outliers. Response: LengthRootKm.  AxisX: patogeno**  ](img/006_0outliers.png)
 
 Otro forma de presentar la misma variable es la siguiente:
+-->
 
-![**outliers. Response: LengthRootKm.  AxisX: huesped**   ](img/006_1outliers.png)
+![**outliers. Datos fuera de tipo.**  ](img/006_1outliers.png)
 
-Finalmente debemos precisar que para estas imagenes, hay  puntos negros que se salen de bigote (**datos fuera de tipo**) y tres puntos rojos (ver flecha azul) le cual son datos **muy fuera de tipo**, los  cuales en consecuencia aumentan la desviación estandar.
+El punto negro fuera del bigote representa al **dato FUERA de tipo** y el punto rojo, **MUY FUERA de tipo**, en consecuencia, aumento de la desviación estandar.
+
+**Axis brake**, permite modificar las divisiones del eje de las ordenadas. Para el último gráfico la división es de **2** unidades por defecto.
+
+**Size**, permite modificar el tamaño de fuente que se emplea para construir la figura.
+
+ [ _clic derecho para descargar imagen_ ]

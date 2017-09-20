@@ -1,11 +1,12 @@
 # Nociones Básicas de Estadística.
 
-Advertencia: El acapite que se presenta a continuación no pretende ser remplazo de un riguroso libro de estadística, apenas tocaremos las nociones mínimas de esta materia, para encaminarlo al análisis utilizando la herramienta FieldBook.
+<!--**Advertencia: El acápite que se presenta a continuación no pretende ser un remplazo de un riguroso libro de estadística, apenas tocaremos las nociones para básicas para refrescar su conocimientos adquiridos,  y encaminarlo en el análisis utilizando la herramienta FieldBook.**
 
 ## ¿Qué necesito para utilizar la herramienta FieldBook?
 
 Recordemos los conceptos básicos.
-###Población:
+
+##Población:
 
 Es un conjunto de individuos que comparten características en común, en un determinado tiempo y espacio, y presentar características sensibles a ser observadas y/o medidas. Convencionalmente se denota como **N**.
 
@@ -17,11 +18,40 @@ La muestra debe ser representativa de la población y el propósito es poder hac
 
 ###Variables:
 
-La variable es el contenedor que va a recibir el dato de cada observación, y los datos deben pertenecer a la misma característica, propiedad o atributo.
+La variable se ordena en la construcción del libro en campo en columnas, siendo el  contenedor que va a recibir el dato de cada observación, y estos deben pertenecer a la misma característica, propiedad o atributo.
 
-LA variables pueden ser de diferentes maneras
+###Unidad Experimental:
+
+Es el ente sobre quien recae la observación.
 
 ###Diseño experimental
+
+Plantear un diseño experimental en un experimento significa planificar el esquema muestral. Es decir, la forma en la que se colectan los datos, el cual debe incluir el número de observaciones (repeticiones), que varaibles se van a medir, el número de evaluaciones, los tratamientos.
+
+NIVEL DE SIGNIFICANCIA,  se define como la máxima probabilidad de rechazar H0 cuando este es verdadera, es decir probabilidad máxima de cometer el error tipo uno. Se denota por la letra α.
+
+EL VALOR p, _p valor_ es una "credibilidad" de la H0, cuanto más pequeño sea el valor _p_, menos probable que la hipótesis nula sea verdadero, y por ello si es menor que el nivel de significación la hipótesis se rechaza.
+
+**La regla de decisión para rechazar H0, con el enfoque del valor p es:**
+
+• Si el valor p es mayor o igual que α, la hipótesis nula no se rechaza.
+• Si el valor p es menor que α, la hipótesis nula se rechaza.
+
+
+Ejemplo, si el resultado _p valor_ = 0.00403 y α=0.05
+
+la interpretación es la probabilidad de obtener un resultado ó más extremo que el observado es tan pequeña 4/1000. Esta probabilidad es menor que α, la H0 se rechaza.
+
+###Errores
+
+Error tipo I y Error tipo II
+
+α
+
+β
+
+
+introducir gráfica.
 
 DCA
 DBCA
@@ -65,3 +95,4 @@ Se desarrollan el análisis de varianza y prueba de comparación de medias mostr
 ## Graphics
 
 La visualización de los resultados en gráfico de barras o líneas en b/n y colores. 
+-->

@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html >
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="generator" content="bookdown 0.5 and GitBook 2.6.7">
+
+  <meta property="og:title" content="" />
+  <meta property="og:type" content="book" />
+  
+  
+  
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="" />
+  
+  
+  
+
+
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  
+  
+
+
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li> <a href="./">Fieldbook User Manual</a> </li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="1" data-path=""><a href="#nociones-basicas-de-estadistica."><i class="fa fa-check"></i><b>1</b> Nociones Básicas de Estadística.</a></li>
+<li class="divider"></li>
+<li><a href="http://ec2-54-186-118-40.us-west-2.compute.amazonaws.com:3838/sample-apps/fieldbookpass/">FieldBook app</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./"></a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<!--bookdown:title:end-->
+<!--bookdown:title:start-->
+<div id="nociones-basicas-de-estadistica." class="section level1">
+<h1><span class="header-section-number">1</span> Nociones Básicas de Estadística.</h1>
+<!--**Advertencia: El acápite que se presenta a continuación no pretende ser un remplazo de un riguroso libro de estadística, apenas tocaremos las nociones para básicas para refrescar su conocimientos adquiridos,  y encaminarlo en el análisis utilizando la herramienta FieldBook.**
+
+## ¿Qué necesito para utilizar la herramienta FieldBook?
+
+Recordemos los conceptos básicos.
+
+##Población:
+
+Es un conjunto de individuos que comparten características en común, en un determinado tiempo y espacio, y presentar características sensibles a ser observadas y/o medidas. Convencionalmente se denota como **N**.
+
+###Muestra:
+
+Las poblaciones por regla general suelen ser muy grandes, y por economía se recomienda extraer un subconjunto de individuos que conforman la ploblación, a esto se le denomina **Muestra**. Convencionalmente se denota como **n**.
+
+La muestra debe ser representativa de la población y el propósito es poder hacer inferencias sobre la población.
+
+###Variables:
+
+La variable se ordena en la construcción del libro en campo en columnas, siendo el  contenedor que va a recibir el dato de cada observación, y estos deben pertenecer a la misma característica, propiedad o atributo.
+
+###Unidad Experimental:
+
+Es el ente sobre quien recae la observación.
+
+###Diseño experimental
+
+Plantear un diseño experimental en un experimento significa planificar el esquema muestral. Es decir, la forma en la que se colectan los datos, el cual debe incluir el número de observaciones (repeticiones), que varaibles se van a medir, el número de evaluaciones, los tratamientos.
+
+NIVEL DE SIGNIFICANCIA,  se define como la máxima probabilidad de rechazar H0 cuando este es verdadera, es decir probabilidad máxima de cometer el error tipo uno. Se denota por la letra α.
+
+EL VALOR p, _p valor_ es una "credibilidad" de la H0, cuanto más pequeño sea el valor _p_, menos probable que la hipótesis nula sea verdadero, y por ello si es menor que el nivel de significación la hipótesis se rechaza.
+
+**La regla de decisión para rechazar H0, con el enfoque del valor p es:**
+
+• Si el valor p es mayor o igual que α, la hipótesis nula no se rechaza.
+• Si el valor p es menor que α, la hipótesis nula se rechaza.
+
+
+Ejemplo, si el resultado _p valor_ = 0.00403 y α=0.05
+
+la interpretación es la probabilidad de obtener un resultado ó más extremo que el observado es tan pequeña 4/1000. Esta probabilidad es menor que α, la H0 se rechaza.
+
+###Errores
+
+Error tipo I y Error tipo II
+
+α
+
+β
+
+
+introducir gráfica.
+
+DCA
+DBCA
+CL
+F_DCA
+F_DBCA
+
+Repeticiones
+
+obervaciones
+
+evaluaciones
+
+variables.
+
+parametros
+
+
+Aqui podrás  construir tu libro de campo, es decir, diseñar y exportar el único formato que  entiende la computadora para su posterior análisis.
+
+## Importdata
+
+Una vez recogido los datos en el formato antes exportados, ahora aquí los cargaremos en la plataforma *FieldBook* y podrás usar la herramienta filtro para elegir los factores de interés.
+
+## Outliers
+
+Seguidamente, podrás  dar una vista rápida a la distribución y simetria de tus datos mediante la construcción de diagramas de cajas o boxplot.
+
+## Multivariante
+
+Aqui se presentan pruebas de correlación, analisis de componentes principales y correlación de pearson.
+
+## Regression
+
+Se contruyen modelos de regresión lineal, visualización de la ecuación y representación gráfica.
+
+## Stadistics
+
+Se desarrollan el análisis de varianza y prueba de comparación de medias mostrada en cuadro resúmen sensible a ser exportadas.
+
+## Graphics
+
+La visualización de los resultados en gráfico de barras o líneas en b/n y colores. 
+-->
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": true,
+"facebook": false,
+"twitter": false,
+"google": false,
+"weibo": false,
+"instapper": false,
+"vk": false,
+"all": ["facebook", "google", "twitter", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "sepia",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": "https://github.com/Flavjack/fieldbook-usm/blob/master/%s",
+"text": "Edit"
+},
+"download": null,
+"toc": {
+"collapse": "section",
+"scroll_highlight": true
+},
+"search": false
+});
+});
+</script>
+
+</body>
+
+</html>

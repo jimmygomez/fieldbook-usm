@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html >
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="generator" content="bookdown 0.5 and GitBook 2.6.7">
+
+  <meta property="og:title" content="" />
+  <meta property="og:type" content="book" />
+  
+  
+  
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="" />
+  
+  
+  
+
+
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  
+  
+
+
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li> <a href="./">Fieldbook User Manual</a> </li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="1" data-path=""><a href="#exploratory-graphic"><i class="fa fa-check"></i><b>1</b> Exploratory Graphic</a></li>
+<li class="divider"></li>
+<li><a href="http://ec2-54-186-118-40.us-west-2.compute.amazonaws.com:3838/sample-apps/fieldbookpass/">FieldBook app</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./"></a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<!--bookdown:title:end-->
+<!--bookdown:title:start-->
+<div id="exploratory-graphic" class="section level1">
+<h1><span class="header-section-number">1</span> Exploratory Graphic</h1>
+<p>Aquí se visualizan los valores atípicos, y permite al investigador tomar desiciones, sobre como se va a manejar los datos.</p>
+<div class="figure">
+<img src="img/gif/gif_002.gif" alt="Gráfico exploratorio: Respuesta-Factores" />
+<p class="caption"><strong>Gráfico exploratorio: Respuesta-Factores</strong></p>
+</div>
+<p>En <strong>Response</strong>, seleccionar la variable respuesta. En <strong>Axis X</strong>, el factor a respresentar en el eje de las abscisas, para el ejemplo: <strong>VARIEDAD</strong>. En <strong>Grouped</strong> se grafican los datos sobre el plano cartesiano, ingresar otro factor si lo hubiera o seleccionar el mismo; para el ejemplo, <strong>CONDICION</strong>.</p>
+<p>Al pie en <strong>Ylabel</strong> escribir el rótulo para el eje de las ordenadas, el cuál permite notación científica y simbología no permitida siempre que esté se escriba entre comillas, “”.</p>
+<p>Por ejemplo: <strong>Damage (“%”)</strong> imprimirá <strong>Damage (%)</strong></p>
+<p>Por ejemplo: <strong>damage “%”</strong> imprimirá <strong>damage %</strong></p>
+<p><strong>IMPORTANTE:</strong> Terminado de escribir el rótulo, <strong>NO dejar espacio en blanco al final</strong>.</p>
+<div class="figure">
+<img src="img/gif/g_002_1.gif" alt="Gráfico exploratorio: Labels" />
+<p class="caption"><strong>Gráfico exploratorio: Labels</strong></p>
+</div>
+<p><strong>¿Por qué no aparece el diagrama de caja para el subnivel saludable?</strong></p>
+<p>Porque la tabla de donde proviene el gráfico no cuenta con esos datos, puesto que la respuesta es damage (daño); las plantas saludables no han recibido daño. <strong>Por tanto, construido la libreta de campo en Fieldbook plan</strong>, los datos pérdidos ó no evaluados deben dejarse en blanco. <!--![**outliers. Selector de tratamientos, rótulos y escala **  ](img/006_outliers.png)
+
+    Amarillo: Elegir la variable respuesta que deseé visualizar y su rótulo.
+    verde: Elegir el Tratamiento  a mostrar en el eje de la abscisas.
+    rojo: Elegir el agrupamiento  a mostrar sobre el plano cartesiano.  
+    Azul: Elegir la escala de los ejes y el tamaño de letra.  
+--></p>
+<p>Tanto en <strong>Ylabel</strong> y <strong>Xlabel</strong> permite escribir fórmulas como:</p>
+<p>La fórmula de ejemplo: <strong>valor “S” .g^{-1}</strong></p>
+<p>La fórmula del agua: <strong>H[2] O </strong></p>
+<p>La fórmula de kilómetros por hora: <strong>km. Hr^{-1} </strong></p>
+<p>La concentración de ácido sulfúrico:<strong>“[&quot; SO[4] .H[2] “]”</strong></p>
+<!--
+Ahora, elegimos otra variable respuesta:
+
+Del desplegable **response** elegimos la variable respuesta: _LengthRootKm_,
+
+para el eje de las abscisas **Axis X** elegimos el factor _patogeno_, y finalmente
+
+en **Grouped**, el factor _huesped_, note como difieren las gráficas para ambas figuras, los niveles se agrupan de diferentes modos, para este último caso los niveles del factor Patogeno se ubican en el eje de las "x" y el factor huesped se encuentra dentro del plano cartesiano.
+
+De suprimir los label, el programa asignará por defecto los rótulos de las cabeceras con el que fue ingresado la base de datos, pero estos pueden ser reasignados en label para cada eje y agrupamiento.
+
+![**outliers. Response: LengthRootKm.  AxisX: patogeno**  ](img/006_0outliers.png)
+
+Otro forma de presentar la misma variable es la siguiente:
+-->
+<div class="figure">
+<img src="img/006_1outliers.png" alt="outliers. Datos fuera de tipo." />
+<p class="caption"><strong>outliers. Datos fuera de tipo.</strong></p>
+</div>
+<p>El punto negro fuera del bigote representa al <strong>dato FUERA de tipo</strong> y el punto rojo, <strong>MUY FUERA de tipo</strong>, en consecuencia, aumento de la desviación estandar.</p>
+<p><strong>Axis brake</strong>, permite modificar las divisiones del eje de las ordenadas. Para el último gráfico la división es de <strong>2</strong> unidades por defecto.</p>
+<p><strong>Size</strong>, permite modificar el tamaño de fuente que se emplea para construir la figura.</p>
+<p>[ <em>clic derecho para descargar imagen</em> ]</p>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": true,
+"facebook": false,
+"twitter": false,
+"google": false,
+"weibo": false,
+"instapper": false,
+"vk": false,
+"all": ["facebook", "google", "twitter", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "sepia",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": "https://github.com/Flavjack/fieldbook-usm/blob/master/%s",
+"text": "Edit"
+},
+"download": null,
+"toc": {
+"collapse": "section",
+"scroll_highlight": true
+},
+"search": false
+});
+});
+</script>
+
+</body>
+
+</html>
